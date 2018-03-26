@@ -4,33 +4,16 @@
   font-weight: 200;
 }
 
-section.jumbotron {
-  padding-top: 3em;
-  padding-bottom: 0;
+.up {
+  padding-top: .25em;
+  padding-bottom: 1.5em;
+  vertical-align: top;
 }
 
-.jumbotron .jumbotron-heading {
-  font-weight: 400;
+.down {
+  padding-top: 50em;
 }
 
-.back, a.back {
-  float: left;
-  color: black;
+.down a:hover {
   text-decoration: none;
-  font-size: 2em;
-  margin-top: .35em;
-  margin-left: 2em;
-}
-
-a.back:hover {
-  -webkit-text-stroke: 2px black;
-  -webkit-text-fill-color: white;
-}
-
-.badge {
-  font-weight: 400;
-}
-
-a.btn.btn-sm.btn-outline-dark:hover {
-  color: white;
 }
