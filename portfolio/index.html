@@ -78,7 +78,7 @@
                   <p class="card-text">Ellen Perry Art</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a role="button" class="btn btn-sm btn-outline-dark">View</a>
+                      <a data-toggle="modal" role="button" class="btn btn-sm btn-outline-dark" href="#ellen">View</a>
                       <a role="button" class="btn btn-sm btn-outline-dark" href="http://ellenperryart.com">Visit</a>
                     </div>
                     <h4><span class="badge badge-dark">Web</span></h4>
@@ -93,7 +93,7 @@
                   <p class="card-text">Grace Deal</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <a role="button" class="btn btn-sm btn-outline-dark">View</a>
+                      <a data-toggle="modal" role="button" class="btn btn-sm btn-outline-dark" href="#grace">View</a>
                     </div>
                     <h4><span class="badge badge-secondary">Print</span></h4>
                   </div>
@@ -107,7 +107,7 @@
                   <p class="card-text">Rebecca Deal</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-dark">View</button>
+                      <a data-toggle="modal" role="button" class="btn btn-sm btn-outline-dark" href="#rebecca">View</a>
                     </div>
                     <h4><span class="badge badge-secondary">Print</span></h4>
                   </div>
@@ -120,6 +120,46 @@
       </div>
 
     </main>
+
+    <div class="modal fade bd-ellen-modal-lg" tabindex="-1" role="dialog" id="ellen">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="ellenModalLabel">Ellen Perry Art</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <img class="card-img-bottom" src="images/ellen.png">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-grace-modal-lg" tabindex="-1" role="dialog" id="grace">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="graceModalLabel">Grace Deal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <img class="card-img-bottom" src="images/grace.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="modal fade bd-rebecca-modal-lg" tabindex="-1" role="dialog" id="rebecca">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="rebeccaModalLabel">Rebecca Deal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <img class="card-img-bottom" src="images/rebecca.jpg">
+        </div>
+      </div>
+    </div>
 
     <!-- JavaScript Frameworks -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
