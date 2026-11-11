@@ -229,7 +229,7 @@ a.pure-button-primary:hover {
   padding: 0 0.5em 0.5em 0.5em;
   font-weight: 100;
   line-height: 1em;
-  width: 49%;
+  width: 52%;
   display: inline-block;
   text-align: right;
 }
@@ -247,7 +247,7 @@ a.pure-button-primary:hover {
   color: white;
   padding: 0 0.5em 0.5em 0.5em;
   line-height: 1.1em;
-  width: 50%;
+  width: 47%;
   display: inline-block;
   text-align: left;
 }
